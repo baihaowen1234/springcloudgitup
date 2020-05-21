@@ -66,15 +66,15 @@
         <dependency><!-- 引用自己定义的api通用包，可以使用Payment支付Entity -->
             <groupId>com.atguigu.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
-
+            <version>${project.version}</version>
         </dependency>
 
-        <!-- hystrix-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>-->
-<!--        </dependency>-->
-<!--        eureka client-->
+        <!--        &lt;!&ndash; hystrix&ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>-->
+        <!--        </dependency>-->
+        <!--eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <!--  spring-cloud-starter-netflix-eureka-server服务器-->
