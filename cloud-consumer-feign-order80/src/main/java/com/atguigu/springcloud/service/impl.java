@@ -3,6 +3,7 @@ package com.atguigu.springcloud.service;
 
 import com.atguigu.springcloud.pojo.CommonResult;
 
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 
 @Component
